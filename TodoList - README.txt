@@ -32,7 +32,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-Download the "Todo - Demo.lcf" file.
+![Video Walkthrough](http://imgur.com/a/RXvBO)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
