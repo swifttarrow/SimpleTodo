@@ -4,7 +4,7 @@ Todo List App is an android app that allows building a todo list and basic todo 
 
 Submitted by: Kevin Chang
 
-Time spent: 3 hours spent in total
+Time spent: 10 hours spent in total
 
 ## User Stories
 
@@ -16,7 +16,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
+* [X] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
 * [ ] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
 * [ ] Add support for completion due dates for todo items (and display within listview item)
 * [ ] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of new Activity for editing items
@@ -39,11 +39,14 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+* Took me 2-3 hours to implement the DB persistence. I kept trying to import the library AND 
+  use the remote snapshot jar (at least, I think that's what the problem was!)
+* The emulator seems really slow. Either that, or my app performs really slowly. :(
 * Wanting to complete all the optional features but need more time to learn them. :)
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Kevin Chang]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

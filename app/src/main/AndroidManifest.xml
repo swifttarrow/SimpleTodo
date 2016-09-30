@@ -3,11 +3,23 @@
     package="learningandroid.simpletodo">
 
     <application
+
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="RestClient.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="3" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="learningandroid.simpletodo.model.Item" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
